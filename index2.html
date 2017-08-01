@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="applicable-device" content="mobile" />
+	<!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+	<!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+	<meta content="telephone=no" name="format-detection"/> 
+	<!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<!-- 全屏显示 
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<!-- UC强制全屏 
+	<meta name="full-screen" content="yes">
+	<!-- QQ强制全屏 
+	<meta name="x5-fullscreen" content="true">
+	<!-- 屏蔽百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <!-- Swiper JS -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>	
+</head>
+<body>
+	<div id="All">
+		<div class="top">
+			<div class="top_left">
+				<span class="text">郑州</span>
+				<img src="images/arrows_03.png" alt=""class="down">
+				<ul class="select">
+					<li>上海</li>
+					<li>北京</li>
+					<li>芜湖</li>
+					<li>南京</li>
+				</ul>
+			</div>	
+			<div class="top_center">
+				<input type="text" class="search" placeholder="请输入商品名、品类、或商圈...">
+			</div>
+			<div class="top_right">
+				<img src="images/sweep_03.png" alt="" class="sweep">
+			</div>	
+		</div>
+		
+		<!--轮播图-->
+		<div class="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/banner2_02.png" alt=""></div>
+					<div class="swiper-slide"><img src="images/banner_2.png" alt=""></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		
+		
+			<!--特色介绍-->
+		<div id="whole">
+			<div class="middle">
+				<div class="middle_top">
+					<ul>
+						<li>
+							<img src="images/food1.png" alt=""class="spe1">
+							<p class="spe2">美食</p>
+						</li>
+						<li>
+							<img src="images/hotel2.png" alt="" class="hotel">
+							<p >酒店</p>
+						</li>
+						<li>
+							<img src="images/outlook3.png" alt=""class="spe1">
+							<p >景点</p>
+						</li>
+						<li>
+							<img src="images/relaxation4.png" alt=""class="spe1">
+							<p>休闲娱乐</p>
+						</li>
+					</ul>	
+				</div>
+				<div class="middle_bottom">
+					<ul>
+						<li>
+							<img src="images/roll5.png" alt="">
+							<p>闪惠团购</p>
+						</li>
+						<li>
+							<img src="images/film6.png" alt="">
+							<p>电影</p>
+						</li>
+						<li>
+							<img src="images/holiday7.png" alt="">
+							<p>度假套餐</p>
+						</li>
+						<li>
+							<img src="images/shopping8.png" alt="">
+							<p>购物</p>
+						</li>
+					</ul>
+				</div>		
+			</div>
+			<div class="line"></div>
+
+			<!--免费体验区-->
+			<div class="free">
+				<div class="free_top">
+					<ul>
+						<li class="free_top1"><!-- <img src="images/line.png" alt=""class="blueLine"> -->免费体验区</li>
+						<li>
+							距离开始|<span id="show">00:00:00</span>
+						</li>
+						<li>查看更多></li>
+					</ul>
+				</div>
+				<div class="free_center">
+					<ul>
+						<li>
+							<img src="images/icecream_03.png" alt="">
+							<p>冰激凌</p>
+						</li>
+						<li>
+							<img src="images/drink_05.png" alt="">
+							<p>果蔬饮料</p>
+						</li>
+						<li>
+							<img src="images/fruit_09.png" alt="">
+							<p>水果拼盘</p>
+						</li>
+						<li>
+							<img src="images/pizze_10.png" alt="">
+							<p>美味披萨</p>
+						</li>
+					</ul>
+				</div>	
+				<div class="free_bottom">
+					<ul>
+						<li>
+							<img src="images/car_17.png" alt="">
+							<p>洗车擦车</p>
+						</li>
+						<li>
+							<img src="images/photo_19.png" alt="">
+							<p>摄影写真</p>
+						</li>
+						<li>
+							<img src="images/ball_18.png" alt="">
+							<p>台球休闲</p>
+						</li>
+						<li>
+							<img src="images/foot_18.png" alt="">
+							<p>足浴养生</p>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="line"></div>
+		<!--邦尼财富-->
+			<div class="rich">
+				<div class="rich_top">
+					<ul>
+						<li><p class="string">玖邦尼财富</p></li>
+						<li><p>邦尼币购物，超值超划算！</p></li>
+						<li><p>查看全部></p></li>
+					</ul>
+				</div>
+				<div class="rich_center">
+					<ul>
+						<li>
+							<img src="images/treasure_1.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_2.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_3.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_4.png" alt="">
+
+						</li>
+					</ul>
+				</div>	
+				<div class="rich_bottom">
+					<ul>
+						<li>
+							<img src="images/treasure_5.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_6.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_7.png" alt="">
+						</li>
+						<li>
+							<img src="images/treasure_8.png" alt="">
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="line"></div>
+
+
+		<!--猜你喜欢栏字的部分-->	
+			<div class="guess">
+				<div class="guess_top">
+					<ul>
+						<li>猜你喜欢</li>
+						<li>查看所有></li>
+					</ul>
+				</div>
+				<div class="lineae"></div>
+
+				<!--猜你喜欢栏团购第一个蛋糕-->
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/cake1_03.png"></li>
+							<li class="caketext">
+								<p><span class="text1">香贝贝蛋糕/蛋挞</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="lineae"></div>
+
+				<!--猜你喜欢栏团购第二个-->
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/xg2_07.png">
+							</li>
+							<li class="caketext">
+								<p><span class="text1">天天见面麻辣香锅</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="lineae"></div>
+
+				<!--猜你喜欢栏团购第三个-->
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/noodle3_09.png"></li>
+							<li class="caketext">
+								<p><span class="text1">重庆小面</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- 查看全部-->
+			<div id="listMore">
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/cake1_03.png"></li>
+							<li class="caketext">
+								<p><span class="text1">香贝贝蛋糕/蛋挞</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="lineae"></div>
+
+				<!--猜你喜欢栏团购第二个-->
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/xg2_07.png">
+							</li>
+							<li class="caketext">
+								<p><span class="text1">天天见面麻辣香锅</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="lineae"></div>
+
+				<!--猜你喜欢栏团购第三个-->
+				<div class="like1">
+					<div class="guessLike_choice">
+						<ul class="guessLike_choice1">
+							<li class="cakeimg"><img src="images/noodle3_09.png"></li>
+							<li class="caketext">
+								<p><span class="text1">重庆小面</span><span class="text2">＜1Km</span></p>
+								<p>【高皇寨花都莲郡小区门向西30米】</p>
+								<p><span class="text3">￥49.00元</span><span class="text4">月销量：1532份</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="open" onclick="checkAll()">查看全部团购</div>
+			<div id="close" onclick="checkAll()">收起全部</div>
+		</div>
+		
+		<!-- 底部-->
+		<div class="end">
+			<ul>
+				<li>
+					<img src="images/end1.png" alt="">
+					<p>商城首页</p>
+				</li>
+				<li>
+					<img src="images/end2.png" alt="">
+					<p>商家合作</p>
+				</li>
+				<li>
+					<img src="images/end3.png" alt="">
+					<p>订单列表</p>
+				</li>
+				<li>
+					<img src="images/end4.png" alt="">
+					<p>会员中心</p>
+				</li>
+			</ul>
+		</div>
+	</div>	
+</body>
+</html>

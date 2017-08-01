@@ -1,0 +1,306 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:0.14rem;
+}
+
+/*总的*/
+#All{
+	width:100%;
+	margin:0 auto;
+}
+/*头部*/
+.top{
+	width:100%;
+	background-color:#02a1fc;
+	height:1.0rem;
+	position:relative;
+	z-index:999;
+	position:fixed;
+	top:0;
+}
+/*顶部的左边*/
+.top_left{
+	position:absolute;
+	left:0.2rem;
+	color:#fff;
+}
+.top_left span {
+	font-size:0.25rem;
+	margin-top:0.3rem;
+	line-height:1rem;
+}
+.select li{
+	font-size:0.25rem;
+	margin-top:0.25rem;
+	color:#fff;
+}
+.select{
+	background-color:#02a1fc;
+	width:1rem;
+	height:2rem;
+	text-align:center;
+	overflow:scroll;
+}
+.search{
+	position:absolute;
+	top:0.3rem;
+	left:1.4rem;
+	width:4.0rem;
+	height:0.4rem;
+	border:0.01rem solid white;
+	border-radius:0.3rem;
+	background:url("../images/seacrh_03.png") no-repeat 6px 0;
+	background-size:12%;
+}
+.search::-webkit-input-placeholder{
+	color:#fff;
+	text-indent:50px;
+}
+.top_right{
+	position:absolute;
+	right:0.2rem;
+	top:0.25rem;
+}
+.sweep{
+	position:absolute;
+	width:0.4rem;
+	height:0.4rem;
+	top:0.02rem;
+	right:0.03rem;
+}
+#whole{
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0.3rem;
+}
+/*背景banner*/
+.banner{
+	margin-top:1rem;
+	width:100%;
+	height:2.05rem;
+}
+.banner img{
+	width:100%;
+	height:2.05rem;
+}
+/*特色介绍*/
+.middle{
+	width:90%;
+	margin:0 auto;
+}
+.middle ul{
+	display:flex;
+	justify-content:space-between;
+}
+ li{
+	list-style:none;
+}
+.spe1{
+	display:block;
+	width:1rem;
+	height:1rem;
+}
+.middle_top p{
+	display:block;
+	font-size:0.2rem;
+	text-align:center;
+}
+.hotel{
+	display:block;
+	width:1.2rem;
+	height:1.0rem;
+}
+.spe2{
+	display:block;
+	font-size:0.2rem;
+	text-align:center;
+}
+.middle_bottom img{
+	display:block;
+	width:1rem;
+	height:1rem;
+}
+.middle_bottom p{
+	display:block;
+	font-size:0.2rem;
+	text-align:center;
+}
+.middle_bottom{
+	margin-top:0.2rem;
+}
+/*灰色粗线*/
+.line{
+	margin-top:0.3rem;
+	border:0.04rem solid #ccc;
+}
+/*猜你喜欢栏底下的线*/
+.lineae{
+	width:95%;
+	border:0.01rem solid #ccc;
+	margin:0.05rem auto;
+}
+/*免费体验区和邦尼财富*/
+.free{
+	width:100%;
+	margin-top:0.3rem;	
+}
+.free_top ul{
+	width:90%;
+	height:0.5rem;
+	display:flex;
+	font-size:0.18rem;
+	color:#5c5d5d;
+	margin:0 auto;
+	justify-content:space-between;
+}
+.blueLine{
+	width:0.01rem;
+	height:0.5rem;
+	vertical-align:text-bottom;
+}
+
+.rich,.guess,.total{
+	width:90%;
+	margin:0.3rem auto;
+	height:auto;
+}
+.free ul{
+	display:flex;
+	justify-content:space-between;
+	margin:0 auto;
+}
+.free_center ul,.free_bottom ul{
+	width:90%;
+	display:flex;
+	margin:0rem auto;
+	justify-content:space-between;
+	align-items:center;
+}
+.free_bottom ul{
+	margin-top:0.3rem;
+}
+.rich ul{
+	display:flex;
+	justify-content:space-between;
+}
+.free img,.rich img{
+	display:block;
+	width:1rem;
+	height:1rem;
+}
+.free_center p,.free_bottom p{
+	display:block;
+	font-size:0.15rem;
+	text-align:center;
+}
+.rich_top{
+	font-size:0.18rem;
+	color:#5c5d5d;
+}
+.rich_center,.rich_bottom{
+	margin-top:0.3rem;
+}
+/*猜你喜欢栏标题部分*/
+.guess_top ul{
+	font-size:0.18rem;
+	color:#5c5d5d;
+	display:flex;
+	justify-content:space-between;
+}
+
+/*猜你喜欢栏内容部分*/
+.like1{
+	width:100%;
+	margin:0 auto;
+	border:0.01rem solid #efefef;
+}
+.guessLike{
+	width: 100%;
+	margin-top:0.1rem;
+	color:#5c5d5d;
+}
+
+.guessLike_choice1{
+	width:100%;
+	display:flex;
+	margin:0 auto;
+	justify-content:space-around;
+	margin-top:0.1rem;
+}
+
+.guessLike_choice1 img{
+	width: 2.5rem;
+	height:1.5rem;
+}
+.caketext p{
+	width: 100%;
+	height:38%;
+}
+.caketext span{
+	width: 50%;
+	display:inline-block;
+}
+.text2,.text4{
+	text-align:right;
+}
+.text1{
+	font-size:0.14rem;
+	font-weight:bold;
+}
+.text3{
+	font-size:0.15rem;
+	color:red;
+}
+/*查看全部*/
+#open{
+	font-size:0.2rem;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+	height:1rem;
+	line-height:1rem;
+	margin-bottom:1rem;
+	color:#5c5d5d;
+}
+#listMore{
+	display:none;
+}
+#close{
+	font-size:0.2rem;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+	height:1rem;
+	line-height:1rem;
+	margin-bottom:1rem;
+	display:none;
+	color:#5c5d5d;
+}
+.end{
+	width:100%;
+	height:auto;
+	background-color:#02a1fc;
+	margin:0 auto;
+	margin-top:0.3rem;
+	position:absolute;
+	bottom:0;
+	position:fixed;
+
+}
+.end ul{
+	display:flex;
+	justify-content:space-around;
+}
+.end img{
+	margin-top:0.1rem;
+}
+.end p{
+	text-align:center;
+	color:white;
+	font-size:0.25rem;
+}
